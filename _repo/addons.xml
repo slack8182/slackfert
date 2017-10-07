@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.slackswizard" name="Slack's  Kodi Wizard" version="1.0.0" provider-name="SimpleKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Slack's Kodi Wizard</summary>
+    <description lang="en">Best Kodi Tutorials</description>
+	<website>http://SimpleKodi.com</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+    <addon id="repository.slack" name="Slacks Wizard" version="1.0.0" provider-name="Slackfert">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Slacks Wizard">
+            <info compressed="false">https://raw.githubusercontent.com/slack8182/Slack_Wizard/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/slack8182/Slack_Wizard/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/slack8182/Slack_Wizard/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Slacks Kodi Wizard</summary>
+            <description>slacks kodi wzard</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
